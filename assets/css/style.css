@@ -68,12 +68,14 @@ main .container .row{
     margin: 60px 0px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items:center ;
 }
 .product{
     position: relative;
-    width: 400px;
+    min-width: 300px;
 }
+
 .product .discount{
     background-color: red;
     padding: 5px;
@@ -99,6 +101,21 @@ main .container .row{
 
 .product img{
     width: 400px;
+}
+.product .img-a{
+    display: block;
+}
+.product:hover .img-b{
+    display: none;
+}
+.product .img-b{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+.product:hover .img-b{
+    display: block;
 }
 
 .product .heart{
