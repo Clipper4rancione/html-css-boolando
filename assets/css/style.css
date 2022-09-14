@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILITY */
+
+.debug{
+    background-color: rgba(255, 0, 0, .5);
+    border: 1px solid black;
+}
+
+/* GENERALI */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+
+    background-color: #FF6900;
+}
+
+header .container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+
+.product{
+
+/* COLOR DI DEBUG */
+    background-color: grey;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+
+    width: 100%;
+    height: 70px;
+
+    color: white;
+    background-color: #1A1A1A;
+}
